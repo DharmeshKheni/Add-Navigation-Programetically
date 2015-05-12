@@ -21,9 +21,14 @@ class ViewController: UIViewController {
         
 
         if let resultController = storyboard!.instantiateViewControllerWithIdentifier("OnePlayerCricketVC") as? OnePlayerCricketVC {
+            resultController.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.Plain, target: self, action: "goBack")
             let navController = UINavigationController(rootViewController: resultController) // Creating a navigation controller with VC1 at the root of the navigation stack.
             self.presentViewController(navController, animated:true, completion: nil)
         }
+    }
+    
+    func goBack(){
+        dismissViewControllerAnimated(true, completion: nil)
     }
 
 }

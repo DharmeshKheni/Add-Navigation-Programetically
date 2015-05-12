@@ -80,8 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				04E7066D1B00763500BE6286 /* AppDelegate.swift */,
-				04E7068D1B00768600BE6286 /* OnePlayerCricketVC.swift */,
 				04E7066F1B00763500BE6286 /* ViewController.swift */,
+				04E7068D1B00768600BE6286 /* OnePlayerCricketVC.swift */,
 				04E706711B00763500BE6286 /* Main.storyboard */,
 				04E706741B00763500BE6286 /* Images.xcassets */,
 				04E706761B00763500BE6286 /* LaunchScreen.xib */,
@@ -413,6 +413,7 @@
 				04E706891B00763500BE6286 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04E7068A1B00763500BE6286 /* Build configuration list for PBXNativeTarget "testingTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +422,7 @@
 				04E7068C1B00763500BE6286 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
